@@ -1,0 +1,2 @@
+ cat /proc/scsi/scsi
+ 
