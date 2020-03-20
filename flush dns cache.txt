@@ -1,0 +1,1 @@
+C:\Program Files\EMC NetWorker\nsr\bin>dbgcommand.exe -p 5404 FlushDnsCache
