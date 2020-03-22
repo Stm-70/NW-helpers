@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>nsrexecd</short>
+  <description>   nsrexecd Deamon is part of the networker client and listens to remote requests   - two ports are fix 7937/tcp and 7938/tcp and udp    - two additioanl ports are required and opened dynamically.    - snapshots require two additional ports   see networker security guide.    to set the port range to use by nsreced use the following command:       nsrports -S 7937-7942      </description>
+  <port protocol="tcp" port="7937"/>
+  <port protocol="udp" port="7938"/>
+  <port protocol="tcp" port="7938"/>
+  <port protocol="tcp" port="7939"/>
+  <port protocol="tcp" port="7940"/>
+  <port protocol="tcp" port="7941"/>
+  <port protocol="tcp" port="7942"/>
+</service>
