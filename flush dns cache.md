@@ -1,4 +1,4 @@
-# How to flush DNS cache of networker
+# How to flush the DNS cache of Networker
 
 Networker is caching DNS entries which might lead to undesirable results when you are debugging connectivity issues and you need to update DNS entries. Networker would continue to use the cached entries. But you can clear the cached entries during runtime.
 
