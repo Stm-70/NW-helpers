@@ -1,4 +1,4 @@
-# Networker Firewall Rules RH based Linux
+# Networker Firewall Rules for firewald
 
 Networker is using a portmapper which is listening on port 7937/tcp and open ports additional for communication.
 
@@ -28,3 +28,4 @@ You can install the rules by issuing the following command:
 ```
 firewall-cmd --permanent --new-service-from-file=Documents/FW-nsrexecd.xml  --name=nsrexecd
 ```
+please have a look on https://firewalld.org/documentation/service/options.html for more detailed information how to configure firewald
