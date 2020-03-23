@@ -26,6 +26,6 @@ I will add rules for storage node and server later.
 You can install the rules by issuing the following command:
 
 ```
-firewall-cmd --permanent --new-service-from-file=Documents/FW-nsrexecd.xml  --name=nsrexecd
+firewall-cmd --permanent --new-service-from-file=FW-nsrexecd.xml  --name=nsrexecd
 ```
 please have a look on https://firewalld.org/documentation/service/options.html for more detailed information how to configure firewald
