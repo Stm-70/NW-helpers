@@ -1,1 +1,3 @@
+```
 systemctl restart network
+```
